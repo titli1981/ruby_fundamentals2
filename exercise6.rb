@@ -9,3 +9,4 @@ grocery_list.each do |n|
 end
 
 puts "There are #{grocery_list.length} items in the list"
+puts "The second item is #{grocery_list[1]}"
