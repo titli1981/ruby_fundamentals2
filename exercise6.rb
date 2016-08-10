@@ -1,12 +1,22 @@
 grocery_list = ["carrots", "bread", "apples", "salmon"]
+
+
+def remove_items(item, grocery_list)
+  grocery_list.pop
+end
+remove_items("salmon", grocery_list)
+
+
 def adding_items(item, grocery_list)
   grocery_list << "#{item}"
 end
 adding_items("rice",grocery_list )
 
+
 grocery_list.sort.each do |n|
   puts "* #{n}"
 end
+
 
  grocery_list.include? "banana"
  if true
