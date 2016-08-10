@@ -7,3 +7,5 @@ adding_items("rice",grocery_list )
 grocery_list.each do |n|
   puts "* #{n}"
 end
+
+puts "There are #{grocery_list.length} items in the list"
