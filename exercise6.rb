@@ -4,7 +4,7 @@ def adding_items(item, grocery_list)
 end
 adding_items("rice",grocery_list )
 
-grocery_list.each do |n|
+grocery_list.sort.each do |n|
   puts "* #{n}"
 end
 
